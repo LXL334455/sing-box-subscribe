@@ -23,7 +23,7 @@
       },
       {
         "tag": "local",
-        "address": "https://doh-e75e29e6-singbox.doh.pub/dns-query",
+        "address": "doh-e75e29e6-singbox.doh.pub",
         "detour": "direct"
       },
       {
