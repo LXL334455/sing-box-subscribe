@@ -23,7 +23,8 @@
       },
       {
         "tag": "local",
-        "address": "https://223.5.5.5/dns-query",
+        "address": "https://doh-e75e29e6-singbox.doh.pub/dns-query",
+        "address_resolver": "local_dns",
         "detour": "direct"
       },
       {
@@ -33,6 +34,11 @@
       {
         "tag": "block",
         "address": "rcode://success"
+      },
+      {
+        "tag": "local_dns",
+        "address": "local",
+        "detour": "direct"
       }
     ],
     "rules": [
