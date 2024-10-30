@@ -132,7 +132,7 @@
         "com.icbc"
       ],
       "stack": "system",
-      "auto_route": true,
+      "auto_route": false,
       "strict_route": true,
       "sniff": true,
       "platform": {
@@ -454,7 +454,7 @@
     }
   ],
   "route": {
-    "auto_detect_interface": true,
+    "auto_detect_interface": false,
     "final": "Proxy",
     "rules": [
       {
