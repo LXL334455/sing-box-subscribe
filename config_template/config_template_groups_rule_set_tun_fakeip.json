@@ -24,7 +24,6 @@
       {
         "tag": "local",
         "address": "doh-e75e29e6-singbox.doh.pub",
-        "address_resolver": "dns_resolver",
         "detour": "direct"
       },
       {
@@ -34,11 +33,6 @@
       {
         "tag": "block",
         "address": "rcode://success"
-      },
-      {
-        "tag": "dns_resolver",
-        "address": "120.53.53.197",
-        "detour": "direct"
       }
     ],
     "rules": [
