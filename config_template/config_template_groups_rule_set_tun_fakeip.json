@@ -23,7 +23,7 @@
       },
       {
         "tag": "local",
-        "address": "doh-e75e29e6-singbox.doh.pub",
+        "address": "120.53.53.197",
         "detour": "direct"
       },
       {
