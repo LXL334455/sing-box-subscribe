@@ -18,6 +18,11 @@
     },
     "servers": [
       {
+        "tag": "dns_resolver",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
         "tag": "google",
         "address": "tls://8.8.8.8"
       },
@@ -34,12 +39,6 @@
       {
         "tag": "block",
         "address": "rcode://success"
-      },
-      {
-        "tag": "dns_resolver",
-        "address": "local",
-        "strategy": "ipv4_only",
-        "detour": "direct"
       }
     ],
     "rules": [
