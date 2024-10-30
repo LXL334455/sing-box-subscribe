@@ -24,7 +24,6 @@
       {
         "tag": "local",
         "address": "doh-e75e29e6-singbox.doh.pub",
-        "address_resolver": "local_dns",
         "detour": "direct"
       },
       {
@@ -34,11 +33,6 @@
       {
         "tag": "block",
         "address": "rcode://success"
-      },
-      {
-        "tag": "local_dns",
-        "address": "local",
-        "detour": "direct"
       }
     ],
     "rules": [
@@ -132,7 +126,7 @@
         "com.icbc"
       ],
       "stack": "system",
-      "auto_route": false,
+      "auto_route": true,
       "strict_route": true,
       "sniff": true,
       "platform": {
@@ -454,7 +448,7 @@
     }
   ],
   "route": {
-    "auto_detect_interface": false,
+    "auto_detect_interface": true,
     "final": "Proxy",
     "rules": [
       {
