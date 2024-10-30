@@ -37,7 +37,7 @@
       },
       {
         "tag": "dns_resolver",
-        "address": "local",
+        "address": "120.53.53.197",
         "detour": "direct"
       }
     ],
