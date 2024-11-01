@@ -314,6 +314,19 @@
       ]
     },
     {
+      "tag":"Binance",
+      "type":"selector",
+      "outbounds":[
+        "direct",
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ]
+    },
+    {
       "tag":"Games",
       "type":"selector",
       "outbounds":[
@@ -548,6 +561,10 @@
         "outbound": "Microsoft"
       },
       {
+        "rule_set": "geosite-binance",
+        "outbound": "Binance"
+      },
+      {
         "rule_set": ["geosite-category-games", "geosite-dmm"],
         "outbound": "Games"
       },
@@ -773,6 +790,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-binance",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://ghp.ci/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/binance.srs",
         "download_detour": "direct"
       }
     ]
