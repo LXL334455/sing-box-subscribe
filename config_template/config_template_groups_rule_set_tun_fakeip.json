@@ -162,6 +162,20 @@
       ]
     },
     {
+      "tag":"Binance",
+      "type":"selector",
+      "outbounds":[
+        "direct",
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "Others"
+      ],
+      "default": "Singapore"
+    },
+    {
       "tag":"OpenAI",
       "type":"selector",
       "outbounds":[
@@ -302,19 +316,6 @@
     },
     {
       "tag":"Microsoft",
-      "type":"selector",
-      "outbounds":[
-        "direct",
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others"
-      ]
-    },
-    {
-      "tag":"Binance",
       "type":"selector",
       "outbounds":[
         "direct",
