@@ -454,8 +454,8 @@
     },
      {
       "tag": "法国标准 IEPL 中继 1",
-      "server": "bjdata1.fc-smartglobal.xyz",
-      "server_port": 11062,
+      "server": "gzdata1.fc-smartglobal.xyz",
+      "server_port": 12002,
       "type": "shadowsocks",
       "method": "aes-128-gcm",
       "password": "Sj10bnYDe7w6V29E",
