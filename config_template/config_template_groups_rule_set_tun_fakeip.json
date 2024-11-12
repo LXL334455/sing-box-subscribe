@@ -33,7 +33,7 @@
       },
       {
         "tag": "block",
-        "address": "rcode://success"
+        "address": "rcode://refused"
       },
        {
         "tag": "dns_resolver",
