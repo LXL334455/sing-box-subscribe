@@ -19,8 +19,7 @@
     "servers": [
       {
         "tag": "google",
-        "address": "https://doh.ankel.org/dns-query",
-        "address_resolver": "dns_resolver"
+        "address": "tls://8.8.8.8"
       },
       {
         "tag": "local",
@@ -33,12 +32,7 @@
       },
       {
         "tag": "block",
-        "address": "rcode://refused"
-      },
-      {
-        "tag": "dns_resolver",
-        "address": "223.5.5.5",
-        "detour": "direct"
+        "address": "rcode://name_error"
       }
     ],
     "rules": [
