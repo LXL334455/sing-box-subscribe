@@ -468,12 +468,11 @@
     {
     "type": "vless",
     "tag":"🇭🇰 CLAW",
-    "users": [
-        {
-            "uuid": "96037f94-8509-44a3-b8ba-4d01aaed5eeb", 
-            "flow": "xtls-rprx-vision"
-        }
-    ],
+    "uuid": "96037f94-8509-44a3-b8ba-4d01aaed5eeb", 
+    "flow": "xtls-rprx-vision",
+    "server": "8.210.51.233",
+    "server_port": 53863,
+    "network": "tcp",
     "tls": {
         "enabled": true,
         "server_name": "as.idolmaster-official.jp", 
