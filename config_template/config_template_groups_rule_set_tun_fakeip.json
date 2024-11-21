@@ -467,7 +467,7 @@
     },
     {
     "type": "vless",
-    "tag":"🇭🇰 HK-CLAW",
+    "tag":"🇭🇰 CLAW",
     "uuid": "96037f94-8509-44a3-b8ba-4d01aaed5eeb", 
     "flow": "xtls-rprx-vision",
     "server": "8.210.51.233",
@@ -475,10 +475,15 @@
     "network": "tcp",
     "tls": {
         "enabled": true,
+        "insecure": false,
         "server_name": "as.idolmaster-official.jp", 
+        "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+        },
         "reality": {
             "enabled": true,
-            "public_key": "4497CwCGLCdJxYr1GNHprGVCN1YN9q6KU_NG58ArSXU", 
+            "private_key": "4497CwCGLCdJxYr1GNHprGVCN1YN9q6KU_NG58ArSXU", 
             "short_id": "7aaef41950"
         }
     }
