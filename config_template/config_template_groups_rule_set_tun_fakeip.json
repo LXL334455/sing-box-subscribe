@@ -467,7 +467,7 @@
     },
     {
     "type": "vless",
-    "tag":"🇭🇰 CLAW",
+    "tag":"🇭🇰 HK-CLAW",
     "uuid": "96037f94-8509-44a3-b8ba-4d01aaed5eeb", 
     "flow": "xtls-rprx-vision",
     "server": "8.210.51.233",
