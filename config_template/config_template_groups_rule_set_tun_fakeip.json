@@ -385,6 +385,7 @@
       "tag":"HongKong",
       "type":"selector",
       "outbounds":[
+        "🇭🇰 HK-CLAW 01",
         "{all}"
       ],
       "filter":[
@@ -445,6 +446,7 @@
       "tag":"auto",
       "type":"urltest",
       "outbounds":[
+        "🇭🇰 HK-CLAW 01",
         "{all}"
       ],
       "filter":[
