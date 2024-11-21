@@ -27,7 +27,7 @@
       },
       {
         "tag": "local",
-        "address": "local",
+        "address": "120.53.53.197",
         "detour": "direct"
       },
       {
