@@ -157,7 +157,7 @@
       "outbounds":[
         "auto",
         "direct",
-        🇭🇰 HK-CLAW,
+        "🇭🇰 HK-CLAW 01",
         "{all}"
       ]
     },
@@ -468,24 +468,23 @@
     },
     {
     "type": "vless",
-    "tag":"🇭🇰 HK-CLAW",
-    "uuid": "96037f94-8509-44a3-b8ba-4d01aaed5eeb", 
+    "tag":"🇭🇰 HK-CLAW 01",
+    "uuid": "e8f380b3-8b56-4ad6-a258-5927e42cbec2", 
     "flow": "xtls-rprx-vision",
-    "server": "8.210.51.233",
-    "server_port": 53863,
-    "network": "tcp",
+    "server": "8.218.20.194",
+    "server_port": 46538,
     "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "as.idolmaster-official.jp", 
+        "server_name": "www.amazon.com", 
         "utls": {
         "enabled": true,
         "fingerprint": "chrome"
         },
         "reality": {
             "enabled": true,
-            "public_key": "4497CwCGLCdJxYr1GNHprGVCN1YN9q6KU_NG58ArSXU", 
-            "short_id": "7aaef41950"
+            "public_key": "he7qsVYv2YR6yvWIVkG9KUVe8SdWKA4qgNNplAZsREU", 
+            "short_id": "88"
         }
     }
     }
