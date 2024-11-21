@@ -23,7 +23,8 @@
       },
       {
         "tag": "local",
-        "address": "local",
+        "address": "https://doh-e75e29e6-singbox.doh.pub/dns-query",
+        "address_resolver": "dns_resolver",
         "detour": "direct"
       },
       {
@@ -33,6 +34,11 @@
       {
         "tag": "block",
         "address": "rcode://refused"
+      },
+      {
+        "tag": "dns_resolver",
+        "address": "local",
+        "detour": "direct"
       }
     ],
     "rules": [
