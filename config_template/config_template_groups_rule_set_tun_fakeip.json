@@ -478,7 +478,7 @@
         "server_name": "as.idolmaster-official.jp", 
         "reality": {
             "enabled": true,
-            "private_key": "4497CwCGLCdJxYr1GNHprGVCN1YN9q6KU_NG58ArSXU", 
+            "public_key": "4497CwCGLCdJxYr1GNHprGVCN1YN9q6KU_NG58ArSXU", 
             "short_id": "7aaef41950"
         }
     }
