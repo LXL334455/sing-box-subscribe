@@ -24,7 +24,6 @@
       {
         "tag": "local",
         "address": "120.53.53.197",
-        "address_resolver": "dns_resolver",
         "detour": "direct"
       },
       {
@@ -34,11 +33,6 @@
       {
         "tag": "block",
         "address": "rcode://refused"
-      },
-       {
-        "tag": "dns_resolver",
-        "address": "local", 
-        "detour": "direct"
       }
     ],
     "rules": [
