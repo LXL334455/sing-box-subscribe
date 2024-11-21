@@ -19,11 +19,7 @@
     "servers": [
       {
         "tag": "google",
-        "address": "https://doh.ankel.org/dns-query",
-        "address_resolver": "local",
-        "address_strategy": "ipv4_only",
-        "strategy": "ipv4_only",
-        "client_subnet": "1.0.1.0"
+        "address": "tls://8.8.8.8"
       },
       {
         "tag": "local",
