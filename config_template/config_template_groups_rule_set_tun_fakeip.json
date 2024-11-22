@@ -356,6 +356,7 @@
       "tag":"Global",
       "type":"selector",
       "outbounds":[ 
+        "🇭🇰 HK-CLAW 01",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -470,7 +471,7 @@
     },
     {
     "type": "vless",
-    "tag":"🇭🇰 HK-CLAW 01",
+    "tag": "🇭🇰 HK-CLAW 01",
     "uuid": "e8f380b3-8b56-4ad6-a258-5927e42cbec2", 
     "flow": "xtls-rprx-vision",
     "server": "8.218.20.194",
