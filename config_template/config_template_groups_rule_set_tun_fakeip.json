@@ -611,8 +611,8 @@
       {
         "tag": "geosite-category-ads-all",
         "type": "remote",
-        "format": "source",
-        "url": "https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Singbox.json",
+        "format": "binary",
+        "url": "https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Singbox.srs",
         "download_detour": "🇭🇰 HK-CLAW 01"
       },
       {
