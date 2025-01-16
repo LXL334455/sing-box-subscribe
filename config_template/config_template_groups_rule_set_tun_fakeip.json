@@ -31,7 +31,7 @@
       },
       {
         "tag": "local",
-        "address": "https://doh-e75e29e6-singbox_mz.doh.pub/dns-query",
+        "address": "https://304010.alidns.com/dns-query",
         "address_resolver": "Remote-DNS-Resolver",
         "detour": "direct"
       },
