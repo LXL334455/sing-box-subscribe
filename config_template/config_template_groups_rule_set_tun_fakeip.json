@@ -32,6 +32,12 @@
       {
         "tag": "local",
         "address": "https://304010.alidns.com/dns-query",
+        "address_resolver": "Remote-DNS-Resolver",
+        "detour": "direct"
+      },
+       {
+        "tag": "Remote-DNS-Resolver",
+        "address": "local",
         "detour": "direct"
       },
       {
