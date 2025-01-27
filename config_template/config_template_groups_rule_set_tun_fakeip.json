@@ -27,17 +27,11 @@
     "servers": [
       {
         "tag": "google",
-        "address": "udp://8.8.4.4"
+        "address": "tls://8.8.8.8"
       },
       {
         "tag": "local",
-        "address": "https://304010.alidns.com/dns-query",
-        "address_resolver": "Remote-DNS-Resolver",
-        "detour": "direct"
-      },
-       {
-        "tag": "Remote-DNS-Resolver",
-        "address": "223.5.5.5",
+        "address": "https://223.5.5.5/dns-query",
         "detour": "direct"
       },
       {
@@ -50,7 +44,6 @@
       }
     ],
     "rules": [
-     
       {
         "rule_set": "geosite-category-ads-all",
         "server": "block"
@@ -124,6 +117,14 @@
           "server_port": 7890
         }
       }
+       "exclude_package": [
+          "com.tencent.mm",
+        "com.tencent.wework",
+        "com.zhihu.android",
+        "cmb.pb",
+        "com.icbc",
+        "com.jingdong.app.mall"
+        ]
     },
     {
       "tag": "mixed",
