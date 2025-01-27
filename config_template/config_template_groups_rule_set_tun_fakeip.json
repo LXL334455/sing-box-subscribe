@@ -50,6 +50,14 @@
       }
     ],
     "rules": [
+      "package_name": [
+          "com.tencent.mm",
+        "com.tencent.wework",
+        "com.zhihu.android",
+        "cmb.pb",
+        "com.icbc",
+        "com.jingdong.app.mall"
+        ],
       {
         "rule_set": "geosite-category-ads-all",
         "server": "block"
