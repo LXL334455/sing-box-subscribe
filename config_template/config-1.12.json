@@ -417,13 +417,13 @@
         "final": "Proxy",
         "rules": [
              {
-                "domain": [
+                "domain_suffix": [
                     "hanime1.me"
                 ],
                 "outbound": "Telegram"
             },
             {
-                "domain": [
+                "domain_suffix": [
                     "dmm.co.jp"
                 ],
                 "outbound": "Twitter"
