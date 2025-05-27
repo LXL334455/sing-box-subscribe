@@ -416,6 +416,18 @@
         "auto_detect_interface": true,
         "final": "Proxy",
         "rules": [
+             {
+                "domain": [
+                    "hanime1.me"
+                ],
+                "outbound": "Telegram"
+            },
+            {
+                "domain": [
+                    "dmm.co.jp"
+                ],
+                "outbound": "Twitter"
+            },
             {
                 "inbound": [
                     "tun-in",
