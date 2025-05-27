@@ -6,10 +6,14 @@
     "dns": {
         "servers": [
             {
+                "type":"local",
+                "tag":"local"
+            },
+            {
                 "type": "https",
                 "tag": "ali",
                 "server": "https://304010-llongl2001.alidns.com/dns-query",
-                "domain_resolver": "direct"
+                "domain_resolver": "local"
             },
             {
                 "type": "fakeip",
