@@ -74,18 +74,7 @@
                 "fdfe:dcba:9876::1/126"
             ],
             "auto_route": true,
-            "strict_route": true,
-            "exclude_package": [
-                "com.tencent.mm",
-                "cmb.pb",
-                "com.icbc",
-                "com.jingdong.app.mall",
-                "com.taobao.taobao",
-                "com.xunmeng.pinduoduo",
-                "com.alibaba.wireless",
-                "com.tencent.mobileqq",
-                "com.dragon.read"
-            ]
+            "strict_route": true
         }
     ],
     "outbounds": [
