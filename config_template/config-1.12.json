@@ -6,8 +6,9 @@
     "dns": {
         "servers": [
             {
-                "type":"local",
-                "tag":"local"
+                "type":"tcp",
+                "tag":"local",
+                "server":"8.8.8.8"
             },
             {
                 "type": "https",
