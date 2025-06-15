@@ -13,7 +13,7 @@
             {
                 "type": "https",
                 "tag": "ali",
-                "server": "304010-llongl2001.alidns.com",
+                "server": "doh.18bit.cn",
                 "domain_resolver": "local"
             },
             {
