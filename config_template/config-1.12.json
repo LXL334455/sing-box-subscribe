@@ -6,7 +6,7 @@
     "dns": {
         "servers": [
             {
-                "type":"tcp",
+                "type":"udp",
                 "tag":"local",
                 "server":"8.8.8.8"
             },
