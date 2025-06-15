@@ -32,10 +32,6 @@
                 "server": "fakeip"
             },
             {
-                "rule_set": "geosite-category-ads-all",
-                "action": "reject"
-            },
-            {
                 "rule_set": "geosite-cn",
                 "server": "ali"
             },
@@ -51,12 +47,6 @@
         "disable_cache": false,
         "disable_expire": false,
         "independent_cache": false
-    },
-    "ntp": {
-        "enabled": false,
-        "server": "time.apple.com",
-        "server_port": 123,
-        "interval": "30m"
     },
     "inbounds": [
         {
@@ -437,7 +427,10 @@
                 ],
                 "action": "hijack-dns"
             },
-        
+            {
+                "rule_set": "geosite-category-ads-all",
+                "action": "reject"
+            },
             {
                 "domain": [
                     "clash.razord.top",
