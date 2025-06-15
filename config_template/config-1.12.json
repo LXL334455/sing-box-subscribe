@@ -13,7 +13,7 @@
             {
                 "type": "https",
                 "tag": "ali",
-                "server": "304010.alidns.com/dns-query",
+                "server": "https://304010.alidns.com/dns-query",
                 "domain_resolver": "local"
             },
             {
