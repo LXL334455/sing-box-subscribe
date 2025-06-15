@@ -433,6 +433,12 @@
                 "action": "reject"
             },
             {
+                "domain":[
+                    "wxs.qq.com"
+                ],
+                "action":"reject"
+            },
+            {
                 "domain": [
                     "clash.razord.top",
                     "yacd.metacubex.one",
