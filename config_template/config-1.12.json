@@ -434,7 +434,10 @@
             },
             {
                 "domain":[
-                    "wxs.qq.com"
+                    "wxs.qq.com",
+                    "wximg.wxs.qq.com",
+                    "wxsmw.wxs.qq.com"
+
                 ],
                 "action":"reject"
             },
