@@ -436,7 +436,15 @@
                 "domain":[
                     "wxs.qq.com",
                     "wximg.wxs.qq.com",
-                    "wxsmw.wxs.qq.com"
+                    "wxsmw.wxs.qq.com",
+                    "wxa.wxs.qq.com",
+                    "wxaintpcos.wxqcloud.qq.com.cn",
+                    "wxdgut.cn",
+                    "wxdqgmr.cn",
+                    "wxsnsad.tc.qq.com",
+                    "wxsnsdy.tc.qq.com",
+                    "wxsnsdy.wxs.qq.com",
+                    "wxsnsdythumb.wxs.qq.com"
 
                 ],
                 "action":"reject"
