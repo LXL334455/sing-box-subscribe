@@ -34,7 +34,10 @@
                 "rule_set": "geosite-category-ads-all",
                 "action": "reject"
             },
-        "ip_accept_any": true,     
+            {
+                "ip_accept_any": true  
+            }
+
         ],
         "strategy": "ipv4_only",
         "final":"ali"
