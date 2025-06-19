@@ -24,7 +24,7 @@
             },
             {
                 "clash_mode": "Global",
-                "server": "fakeip"
+                "server": "local"
             },
             {
                 "rule_set": "geosite-cn",
