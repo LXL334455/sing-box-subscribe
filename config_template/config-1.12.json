@@ -30,6 +30,7 @@
             },
             {
                 "clash_mode": "Global",
+                "action": "route",
                 "server": "fakeip"
                 
             },
@@ -46,7 +47,15 @@
                     "A",
                     "AAAA"
                 ],      
-                "server": "fakeip"
+                "action": "route",
+                "server": "fakeip",
+                "rewrite_ttl": 1
+            },
+            {
+                "action": "route",
+                "server": "udp",
+                "rewrite_ttl": 5,
+                "disable_cache": true
             }
 
         ],
