@@ -15,12 +15,6 @@
                 "tag": "ali",
                 "server": "doh.18bit.cn",
                 "domain_resolver": "local"
-            },
-            {
-                "type": "fakeip",
-                "tag": "fakeip",
-                "inet4_range": "198.18.0.0/15",
-                "inet6_range": "fc00::/18"
             }
         ],
         "rules": [
@@ -39,13 +33,6 @@
             {
                 "rule_set": "geosite-category-ads-all",
                 "action": "reject"
-            },
-            {
-                "query_type": [
-                    "A",
-                    "AAAA"
-                ],
-                "server": "fakeip"
             }
         ],
         "strategy": "prefer_ipv4",
@@ -59,7 +46,7 @@
             "tag": "mixed-in",
             "listen": "127.0.0.1",
             "listen_port": 7890,
-            "set_system_proxy": false
+            "set_system_proxy": true
         },
         {
             "type": "tun",
@@ -777,8 +764,8 @@
     "experimental": {
         "cache_file": {
             "enabled": true,
-            "store_fakeip": true,
-            "store_rdrc": true
+            "store_fakeip": false,
+            "store_rdrc": false
         },
         "clash_api": {
             "external_controller": "0.0.0.0:9090",
