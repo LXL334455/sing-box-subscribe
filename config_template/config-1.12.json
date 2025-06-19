@@ -8,7 +8,7 @@
             {
                 "type":"udp",
                 "tag":"local",
-                "server":"udp://208.67.222.222"
+                "server":"208.67.222.222"
             },
             {
                 "type": "https",
