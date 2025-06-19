@@ -19,6 +19,10 @@
         ],
         "rules": [
             {
+                "outbound":"any",
+                "server": "ali"
+            },
+            {
                 "clash_mode": "direct",
                 "server": "ali"
             },
@@ -36,9 +40,7 @@
             }
         ],
         "strategy": "ipv4_only",
-        "disable_cache": false,
-        "disable_expire": false,
-        "independent_cache": false
+        "final":"ali"
     },
     "inbounds": [
         {
