@@ -19,10 +19,6 @@
         ],
         "rules": [
             {
-                "outbound":"any",
-                "server": "ali"
-            },
-            {
                 "clash_mode": "direct",
                 "server": "ali"
             },
@@ -39,6 +35,7 @@
                 "action": "reject"
             }
         ],
+        "ip_accept_any": true,
         "strategy": "ipv4_only",
         "final":"ali"
     },
