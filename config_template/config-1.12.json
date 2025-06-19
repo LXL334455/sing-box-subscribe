@@ -15,6 +15,12 @@
                 "tag": "ali",
                 "server": "doh.18bit.cn",
                 "domain_resolver": "local"
+            },
+            {
+                "tag": "fakeip",
+                "type": "fakeip",
+                "inet4_range": "198.18.0.0/15",
+                "inet6_range": "fc00::/18"
             }
         ],
         "rules": [
@@ -24,7 +30,9 @@
             },
             {
                 "clash_mode": "Global",
-                "server": "local"
+                "action": "route",
+                "server": "fakeip"
+                
             },
             {
                 "rule_set": "geosite-cn",
@@ -33,10 +41,20 @@
             {
                 "rule_set": "geosite-category-ads-all",
                 "action": "reject"
+            },
+            {
+                "query_type": [
+                    "A",
+                    "AAAA"
+                ],
+                "action": "route",
+                "server": "fakeip",
+                "rewrite_ttl": 1
             }
 
         ],
-        "strategy": "ipv4_only",
+        "strategy": "prefer_ipv4",
+        "independent_cache": true
         "final":"local"
     },
     "inbounds": [
