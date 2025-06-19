@@ -35,7 +35,7 @@
                 "action": "reject"
             }
         ],
-        "strategy": "prefer_ipv4",
+        "strategy": "only_ipv4",
         "disable_cache": false,
         "disable_expire": false,
         "independent_cache": false
