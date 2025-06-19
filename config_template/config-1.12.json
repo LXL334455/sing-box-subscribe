@@ -36,7 +36,7 @@
             },
             {
                 "ip_accept_any": true,
-                "server":"ali"
+                "server":"local"
             }
 
         ],
