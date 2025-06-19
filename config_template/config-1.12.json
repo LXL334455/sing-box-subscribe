@@ -33,10 +33,6 @@
             {
                 "rule_set": "geosite-category-ads-all",
                 "action": "reject"
-            },
-            {
-                "ip_accept_any": true,
-                "server":"local"
             }
 
         ],
